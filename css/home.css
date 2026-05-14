@@ -1,0 +1,368 @@
+/* ========================= */
+/* SOBRE */
+/* ========================= */
+
+.sobre {
+    padding: 100px 0;
+    background-color: #ffffff;
+}
+
+/* ========================= */
+/* SOBRE CONTAINER */
+/* ========================= */
+
+.sobre-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+/* ========================= */
+/* SOBRE TEXTO */
+/* ========================= */
+
+.sobre-texto {
+    flex: 1;
+    min-width: 320px;
+}
+
+/* ========================= */
+/* SOBRE TITLE */
+/* ========================= */
+
+.sobre-texto h2 {
+    font-size: 42px;
+    color: #111111;
+    margin-bottom: 25px;
+}
+
+/* ========================= */
+/* SOBRE PARÁGRAFO */
+/* ========================= */
+
+.sobre-texto p {
+    font-size: 18px;
+    color: #555555;
+    margin-bottom: 35px;
+    line-height: 1.8;
+}
+
+/* ========================= */
+/* SOBRE IMAGEM */
+/* ========================= */
+
+.sobre-imagem {
+    flex: 1;
+    min-width: 320px;
+}
+
+/* ========================= */
+/* SOBRE IMG */
+/* ========================= */
+
+.sobre-imagem img {
+    width: 100%;
+    border-radius: 12px;
+    object-fit: cover;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* ========================= */
+/* SERVIÇOS */
+/* ========================= */
+
+.servicos {
+    padding: 100px 0;
+    background-color: #f5f5f5;
+}
+
+/* ========================= */
+/* SERVIÇOS GRID */
+/* ========================= */
+
+.servicos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+}
+
+/* ========================= */
+/* SERVIÇO CARD */
+/* ========================= */
+
+.servico-card {
+    background-color: #ffffff;
+    padding: 40px 25px;
+    text-align: center;
+    border-radius: 12px;
+    transition: 0.3s;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* ========================= */
+/* HOVER CARD */
+/* ========================= */
+
+.servico-card:hover {
+    transform: translateY(-8px);
+}
+
+/* ========================= */
+/* SERVIÇO IMG */
+/* ========================= */
+
+.servico-card img {
+    width: 70px;
+    margin: 0 auto 25px;
+}
+
+/* ========================= */
+/* SERVIÇO TITLE */
+/* ========================= */
+
+.servico-card h3 {
+    font-size: 22px;
+    color: #111111;
+    line-height: 1.5;
+}
+
+/* ========================= */
+/* DIFERENCIAIS */
+/* ========================= */
+
+.diferenciais {
+    padding: 100px 0;
+    background-color: #ffffff;
+}
+
+/* ========================= */
+/* DIFERENCIAIS GRID */
+/* ========================= */
+
+.diferenciais-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+/* ========================= */
+/* DIFERENCIAL CARD */
+/* ========================= */
+
+.diferencial-card {
+    background-color: #111111;
+    padding: 40px 30px;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+/* ========================= */
+/* HOVER DIFERENCIAL */
+/* ========================= */
+
+.diferencial-card:hover {
+    transform: translateY(-8px);
+}
+
+/* ========================= */
+/* DIFERENCIAL TITLE */
+/* ========================= */
+
+.diferencial-card h3 {
+    color: #ffcc00;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+/* ========================= */
+/* DIFERENCIAL PARÁGRAFO */
+/* ========================= */
+
+.diferencial-card p {
+    color: #dddddd;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+/* ========================= */
+/* PRODUTOS DESTAQUE */
+/* ========================= */
+
+.produtos-destaque {
+    padding: 100px 0;
+    background-color: #f5f5f5;
+}
+
+/* ========================= */
+/* PRODUTOS GRID */
+/* ========================= */
+
+.produtos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 35px;
+}
+
+/* ========================= */
+/* PRODUTO CARD */
+/* ========================= */
+
+.produto-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: 0.3s;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* ========================= */
+/* HOVER PRODUTO */
+/* ========================= */
+
+.produto-card:hover {
+    transform: translateY(-8px);
+}
+
+/* ========================= */
+/* PRODUTO IMG */
+/* ========================= */
+
+.produto-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+/* ========================= */
+/* PRODUTO TITLE */
+/* ========================= */
+
+.produto-card h3 {
+    font-size: 24px;
+    color: #111111;
+    padding: 25px;
+    text-align: center;
+}
+
+/* ========================= */
+/* BOTÃO CENTRAL */
+/* ========================= */
+
+.center-button {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* ========================= */
+/* DEPOIMENTOS */
+/* ========================= */
+
+.depoimentos {
+    padding: 100px 0;
+    background-color: #ffffff;
+}
+
+/* ========================= */
+/* DEPOIMENTO CARD */
+/* ========================= */
+
+.depoimento-card {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #111111;
+    padding: 50px 40px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+/* ========================= */
+/* DEPOIMENTO TEXTO */
+/* ========================= */
+
+.depoimento-card p {
+    color: #ffffff;
+    font-size: 22px;
+    line-height: 1.8;
+    margin-bottom: 25px;
+}
+
+/* ========================= */
+/* DEPOIMENTO NOME */
+/* ========================= */
+
+.depoimento-card h4 {
+    color: #ffcc00;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* ========================= */
+/* DEPOIMENTO CARGO */
+/* ========================= */
+
+.depoimento-card span {
+    color: #cccccc;
+    font-size: 16px;
+}
+
+/* ========================= */
+/* RESPONSIVO */
+/* ========================= */
+
+@media (max-width: 992px) {
+
+    .sobre-container {
+        flex-direction: column;
+    }
+
+    .sobre-texto {
+        text-align: center;
+    }
+
+    .sobre-texto h2 {
+        font-size: 36px;
+    }
+
+    .servico-card h3 {
+        font-size: 20px;
+    }
+
+    .diferencial-card h3 {
+        font-size: 24px;
+    }
+
+}
+
+/* ========================= */
+/* MOBILE */
+/* ========================= */
+
+@media (max-width: 768px) {
+
+    .sobre,
+    .servicos,
+    .diferenciais,
+    .produtos-destaque,
+    .depoimentos {
+        padding: 70px 0;
+    }
+
+    .sobre-texto h2 {
+        font-size: 32px;
+    }
+
+    .sobre-texto p {
+        font-size: 16px;
+    }
+
+    .depoimento-card {
+        padding: 40px 25px;
+    }
+
+    .depoimento-card p {
+        font-size: 18px;
+    }
+
+}
