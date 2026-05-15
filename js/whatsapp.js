@@ -8,7 +8,7 @@ const formContato = document.getElementById("formContato");
 /* NÚMERO DO WHATSAPP */
 /* ========================= */
 
-const numeroWhatsApp = "5583999999999";
+const numeroWhatsApp = "5583999507241";
 
 /* ========================= */
 /* VERIFICAR FORMULÁRIO */
